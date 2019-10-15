@@ -1,6 +1,6 @@
 body {
-    background-color: #ddd;
-    font-family: 'Product Sans'
+    background-color: lightblue;
+    font-family: 'Product Sans';
 }
 .zep {
     background-color: white;
@@ -8,6 +8,6 @@ body {
     border-radius: 20px;
     margin: auto;
     margin-top: 10px;
-    width: 60%;
+    width: 90%;
     padding: 10px;
 }

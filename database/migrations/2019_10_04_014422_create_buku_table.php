@@ -13,10 +13,13 @@ class CreateBukuTable extends Migration
      */
     public function up()
     {
-        Schema::create('buku', function (Blueprint $table) {
+        Schema::create('books', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('judul_buku');
-            $table->text('link_buku');
+            $table->string('judul');
+            $table->text('file');
+            $table->string('deskripsi');
+            $table->text('gambar');
+            $table->boolean('isFavourite');
             $table->timestamps();
         });
     }

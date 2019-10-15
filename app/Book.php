@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Book extends Model
 {
     // Table yang bisa diisi
-    protected $fillable = ['judul_buku', 'link_buku'];
+    protected $fillable = ['judul', 'file', 'deskripsi', 'gambar', 'isFavourite'];
 }
